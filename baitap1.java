@@ -116,9 +116,9 @@ void inThongTin() {
 public class Bai3 {
 public static void main(String[] args) {
 ArrayList ds = new ArrayList<>();
-ds.add(new TaiKhoan("001", "Nguyen Van A", 5000));
-ds.add(new TaiKhoan("002", "Tran Thi B", 10000));
-ds.add(new TaiKhoan("003", "Le Van C", 2000));
+ds.add(new TaiKhoan("001", "Nguyen Van Long", 5000));
+ds.add(new TaiKhoan("002", "Tran Thi Binh", 10000));
+ds.add(new TaiKhoan("003", "Le Van Tuong", 900000));
 
     ds.get(0).napTien(2000);
     ds.get(1).rutTien(3000);
